@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextArea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h2>Formulario de Contacto</h2>
+
+<!--Input-->
+            <fieldset>
+            <legend>Informacion Personal</legend>
+                <div class="Format-Input">
+                    <label for="1">Nombre</label>
+                    <input id="1" type="text" placeholder="John Doe">
+                </div>
+                <div class="Format-Input">
+                    <label for="2">Correo</label>
+                    <input id="2" type="email" placeholder="Example@gmail.com">
+                </div>
+            </fieldset>
+<!--TextArea-->
+            <div class="Format-Input">
+                <label for="3">Carta</label>
+                <textarea id="3" rows="4" placeholder="..."></textarea>
+            </div>
+<!--Datalyst,Option,Select-->
+            <div>
+                <label>Referente</label>
+                    <input list="referente" name="referente">
+                    <datalist id="referente" name="type-of-user">
+                        <option value="user1">Opcion 1</option>
+                        <option value="user2">Opcion 2</option>
+                        <option value="user3">Opcion 3</option>
+                    </select>
+            </div>
+            <div>
+                <label>Referente 2</label>
+                    <select>
+                        <option value="user1">Opcion 1</option>
+                        <option value="user2">Opcion 2</option>
+                        <option value="user3">Opcion 3</option>
+                    </select>
+            </div>
+<!--Checkbox-->
+            <div>
+                <label for="4">Acepto los <a href="tienda.html" target="_blank"> terminos y condiciones</a></label>
+                <input class="checkbox" id="4" type="checkbox">
+            </div>
+    </form>
+</body>
+</html>

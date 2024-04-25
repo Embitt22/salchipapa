@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-color: #111;
+}
+
+h2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 32px;
+}
+
+form {
+    background-color: #2227;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 40px #fff2 ;
+    max-width: 500px;
+    border-radius: 20px;
+
+}
+
+input, textarea, datalist, select {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px 0 5px 0;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-left: 2px solid rgb(70, 70, 70);
+    box-shadow: 0 0 10px #0005;
+    padding: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+
+}
+
+label {
+    color: rgb(235, 229, 229);
+    line-height: 2;
+}
+
+p {
+    color: white;
+}
+
+.checkbox {
+    width: auto;
+    margin-left: 20px;
+    height: 10px;
+}
+
+option {
+    background-color: #111
+}
+
+legend {
+    color: #ffffff4d;
+    font-size: 24px;
+}
+
+fieldset {
+    border-color: #ffffff4d;
+    border-radius: 3px;
+}
+
+a {
+    color: #0291c9;
+    text-decoration: none;
+}
